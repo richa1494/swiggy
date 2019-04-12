@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="42.606784">
+<testcase classname="Swiggy" name="Order From Bite Me" time="42.606784">
+<skipped><![CDATA[Given Navigate to ​Swiggy...................................................passed
+Then Enter delivery location as ​Indiranagar​, ​Bengaluru...................passed
+Then Select first result which is ​Indiranagar, Bengaluru, Karnataka, India.passed
+And Click on ​Search........................................................passed
+Then Search for Restaurant called ​“Bite Me” ​and Click on it...............passed
+When Restaurant loaded, Add few items to the cart...........................passed
+Then Click on Checkout......................................................passed
+And Verify Items added in checkout page.....................................pending
+Then Click on ​“New to Swiggy SIGN UP.......................................skipped
+And Enter Details for cehckout..............................................skipped
+But Error message at Email field ​“Email id already exists”​ and  Capture screenshot.not executed
+Then Change Red Velvet cupcake quantity to 1................................not executed
+And Capture screenshot and close  browser...................................not executed
+]]></skipped>
+</testcase>
+</testsuite>
